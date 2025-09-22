@@ -11,12 +11,12 @@
 //
 // Menyertakan functions Bootstrap
 //
-@import '../../../packages/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/functions';
 
 //
 // Menyertakan variables Bootstrap
 //
-@import '../../../packages/bootstrap/scss/variables';
+@import '../../../node_modules/bootstrap/scss/variables';
 
 // Menerapkan/override variables Bootstrap apa pun di sini
 $theme-colors: map.deep-merge($theme-colors, color.$theme-colors);
@@ -30,31 +30,31 @@ $btn-border-radius-lg: btn.$border-radius-lg;
 //
 // Menyertakan konfigurasi Bootstrap
 //
-@import '../../../packages/bootstrap/scss/maps';
-@import '../../../packages/bootstrap/scss/mixins';
-@import '../../../packages/bootstrap/scss/root';
+@import '../../../node_modules/bootstrap/scss/maps';
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/root';
 
 //
 // Menyertakan konfigurasi Bootstrap lain
 //
-@import '../../../packages/bootstrap/scss/utilities';
-@import '../../../packages/bootstrap/scss/reboot';
-@import '../../../packages/bootstrap/scss/type';
-@import '../../../packages/bootstrap/scss/images';
-@import '../../../packages/bootstrap/scss/containers';
-@import '../../../packages/bootstrap/scss/grid';
-@import '../../../packages/bootstrap/scss/helpers';
+@import '../../../node_modules/bootstrap/scss/utilities';
+@import '../../../node_modules/bootstrap/scss/reboot';
+@import '../../../node_modules/bootstrap/scss/type';
+@import '../../../node_modules/bootstrap/scss/images';
+@import '../../../node_modules/bootstrap/scss/containers';
+@import '../../../node_modules/bootstrap/scss/grid';
+@import '../../../node_modules/bootstrap/scss/helpers';
 
 //
 // Menyertakan components Bootstrap
 //
-@import '../../../packages/bootstrap/scss/buttons';
-@import '../../../packages/bootstrap/scss/alert';
+@import '../../../node_modules/bootstrap/scss/buttons';
+@import '../../../node_modules/bootstrap/scss/alert';
 
 //
 // Menyertakan utilities API untuk menghasilkan utility classes
 //
-@import '../../../packages/bootstrap/scss/utilities/api';
+@import '../../../node_modules/bootstrap/scss/utilities/api';
 
 //
 // Tambahkan custom code di sini
