@@ -1,0 +1,47 @@
+// ==================================================
+// Bootstrap
+// ==================================================
+
+//
+// Menyertakan functions Bootstrap
+//
+@import '../../../packages/bootstrap/scss/functions';
+
+//
+// Menyertakan variables Bootstrap
+//
+@import '../../../packages/bootstrap/scss/variables';
+
+// Menerapkan/override variables Bootstrap apa pun di sini
+
+//
+// Menyertakan konfigurasi Bootstrap
+//
+@import '../../../packages/bootstrap/scss/maps';
+@import '../../../packages/bootstrap/scss/mixins';
+@import '../../../packages/bootstrap/scss/root';
+
+//
+// Menyertakan konfigurasi Bootstrap lain
+//
+@import '../../../packages/bootstrap/scss/utilities';
+@import '../../../packages/bootstrap/scss/reboot';
+@import '../../../packages/bootstrap/scss/type';
+@import '../../../packages/bootstrap/scss/images';
+@import '../../../packages/bootstrap/scss/containers';
+@import '../../../packages/bootstrap/scss/grid';
+@import '../../../packages/bootstrap/scss/helpers';
+
+//
+// Menyertakan components Bootstrap
+//
+@import '../../../packages/bootstrap/scss/buttons';
+
+//
+// Menyertakan utilities API untuk menghasilkan utility classes
+//
+@import '../../../packages/bootstrap/scss/utilities/api';
+
+//
+// Tambahkan custom code di sini
+//
