@@ -49,6 +49,7 @@ $btn-border-radius-lg: btn.$border-radius-lg;
 // Menyertakan components Bootstrap
 //
 @import '../../../packages/bootstrap/scss/buttons';
+@import '../../../packages/bootstrap/scss/alert';
 
 //
 // Menyertakan utilities API untuk menghasilkan utility classes
